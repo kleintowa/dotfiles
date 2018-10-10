@@ -2,3 +2,4 @@
 	co = checkout
 	cmm = commit
 	sts = status
+	cmm = commit
