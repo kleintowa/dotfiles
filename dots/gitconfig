@@ -1,5 +1,11 @@
 [alias]
 	co = checkout
-	cmm = commit
+	cmm = commit -m
 	sts = status
-	cmm = commit
+
+
+#split users
+[include]
+  path = .gitconfig_hub
+[includeIf "gitdir:~/Documents/hub/dotfiles/work/"]
+  path = .gitconfig_work
